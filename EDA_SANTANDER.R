@@ -6,3 +6,5 @@ ggplot(SAN, aes(x = `ayto:fechaRegistroAnyo`)) + geom_density()
 ggplot(SAN, aes(x = `ayto:fechaRegistroMes`)) + geom_bar()
 ggplot(SAN, aes(y = `ayto:asunto`)) + geom_bar()
 SAN %>% ggplot(aes(x =`ayto:fechaRegistroMes`,y=`ayto:asunto`)) + geom_count()
+       
+       
